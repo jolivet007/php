@@ -88,7 +88,7 @@ Un lenguaje de programación es una forma de **comunicación entre humanos y com
 
 ## 📋 8. Evaluación
 
-### Preguntas de opción múltiple (1 punto c/u)
+### Preguntas de opción múltiple 
 
 **1. ¿Qué es la programación?**  
 - a) Crear imágenes en la computadora  
