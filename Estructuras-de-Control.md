@@ -1,10 +1,8 @@
-✅ 1. Estructuras de Control (para GitHub o impresiones)
+# Introducción a programación PHP 
 
-<details> <summary>📄 Haz clic aquí para desplegar el contenido en formato Markdown</summary>
-markdown
-Copy
-Edit
-# 🧠 Clase: Estructuras de Control en PHP
+<details> <summary> ✅  Estructuras de Control en PHP </summary>
+
+# 🧠 Teórico: Estructuras de Control en PHP
 
 ## 🎯 Objetivo de la clase
 Comprender y aplicar las principales estructuras de control en PHP para modificar el flujo de ejecución de los programas, incluyendo condicionales y bucles.
@@ -111,14 +109,14 @@ if (!$usuario_autenticado) {
 }
 ```
 
-🧪 5. Ejercicios propuestos
-a) Usá un if para verificar si una variable $nota es mayor o igual a 6 y mostrar "Aprobado", si no, "Reprobado".
+# 🧪 5. Ejercicios Prácticos: 
+   ##  a) Usá un if para verificar si una variable $nota es mayor o igual a 6 y mostrar "Aprobado", si no, "Reprobado".
 
-b) Creá un bucle for que imprima los números del 10 al 1.
+   ## b) Creá un bucle for que imprima los números del 10 al 1.
 
-c) Recorre un array con foreach y mostrale el nombre a cada elemento: ["Pedro", "María", "Sofía"].
+   ## c) Recorre un array con foreach y mostrale el nombre a cada elemento: ["Pedro", "María", "Sofía"].
 
-d) Usá switch para responder a los días: "lunes", "viernes" o "otro día".
+   ## d) Usá switch para responder a los días: "lunes", "viernes" o "otro día".
 
 📋 6. Evaluación
 Preguntas de opción múltiple:
