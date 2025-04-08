@@ -1,3 +1,5 @@
+<details> <summary> ✅  Variables en PHP </summary>
+
 # 🧠 Clase: Variables y Tipos de Datos en PHP
 
 ## 🎯 Objetivo de la clase
