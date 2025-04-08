@@ -116,6 +116,6 @@ Un lenguaje de programación es una forma de **comunicación entre humanos y com
 
 ---
 
-### Pregunta de desarrollo (2 puntos)
+### Pregunta de desarrollo 
 
-**Explicá con tus palabras qué es un algoritmo y por qué es importante en la programación. Escribí un algoritmo de 3 pasos que use una persona para empezar su día.**
+**5. Explicá con tus palabras qué es un algoritmo y por qué es importante en la programación. Escribí un algoritmo de 3 pasos que use una persona para empezar su día.**
