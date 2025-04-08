@@ -72,61 +72,61 @@ do {
 } while ($numero <= 3);
 ```
 🔃 for
-php
-Copy
-Edit
+```php
+
 for ($i = 1; $i <= 5; $i++) {
     echo "Iteración: $i <br>";
 }
+```
 🧠 foreach
-php
-Copy
-Edit
+```php
+
 $nombres = ["Ana", "Luis", "Carlos"];
 
 foreach ($nombres as $nombre) {
     echo "Hola, $nombre <br>";
 }
+```
 🚦 4. Control de flujo
 ⛔ break
-php
-Copy
-Edit
+
+```php
 for ($i = 1; $i <= 10; $i++) {
     if ($i == 5) break;
     echo $i . "<br>";
 }
+```
 🔄 continue
-php
-Copy
-Edit
+```php
+
 for ($i = 1; $i <= 5; $i++) {
     if ($i == 3) continue;
     echo $i . "<br>";
 }
+```
 🚪 exit / die
-php
-Copy
-Edit
+```php
 if (!$usuario_autenticado) {
     die("Acceso denegado");
 }
+```
+
 🧪 5. Ejercicios propuestos
-Usá un if para verificar si una variable $nota es mayor o igual a 6 y mostrar "Aprobado", si no, "Reprobado".
+a) Usá un if para verificar si una variable $nota es mayor o igual a 6 y mostrar "Aprobado", si no, "Reprobado".
 
-Creá un bucle for que imprima los números del 10 al 1.
+b) Creá un bucle for que imprima los números del 10 al 1.
 
-Recorre un array con foreach y mostrale el nombre a cada elemento: ["Pedro", "María", "Sofía"].
+c) Recorre un array con foreach y mostrale el nombre a cada elemento: ["Pedro", "María", "Sofía"].
 
-Usá switch para responder a los días: "lunes", "viernes" o "otro día".
+d) Usá switch para responder a los días: "lunes", "viernes" o "otro día".
 
 📋 6. Evaluación
-Preguntas de opción múltiple (1 punto c/u)
+Preguntas de opción múltiple:
 1. ¿Qué estructura se ejecuta al menos una vez, sin importar si la condición es verdadera o falsa?
 
 a) while
 
-b) do...while ✅
+b) do...while 
 
 c) for
 
@@ -138,7 +138,7 @@ a) switch
 
 b) if
 
-c) foreach ✅
+c) foreach 
 
 d) exit
 
@@ -146,7 +146,7 @@ d) exit
 
 a) Salta a la siguiente iteración
 
-b) Sale del bucle actual ✅
+b) Sale del bucle actual 
 
 c) Finaliza todo el script
 
@@ -164,131 +164,11 @@ a) Falta el punto y coma en echo
 
 b) El bucle está mal escrito
 
-c) No hay error ✅
+c) No hay error 
 
 d) Falta cerrar el for con endfor
 
-Pregunta de desarrollo (2 puntos)
-Describí las diferencias entre if y switch y explicá en qué situación preferirías usar cada uno.
+Pregunta de desarrollo:
+5. Describí las diferencias entre if y switch y explicá en qué situación preferirías usar cada uno.
 
-yaml
-Copy
-Edit
 
-</details>
-
----
-
-## 🖥️ 2. **Versión para presentación (diapositivas)**
-
-Dividida por temas clave:
-
----
-
-### 💡 Diapositiva 1 – Título
-**Clase: Estructuras de Control en PHP**  
-Duración: 45 minutos  
-Objetivo: Controlar el flujo de ejecución con condicionales y bucles.
-
----
-
-### 💡 Diapositiva 2 – ¿Qué son las estructuras de control?
-- Permiten tomar decisiones
-- Repiten acciones
-- Tipos: Condicionales, Bucles, Flujo
-
----
-
-### 💡 Diapositiva 3 – Condicionales: `if / else / elseif`
-
-```php
-if ($edad >= 18) {
-    echo "Mayor de edad";
-} elseif ($edad >= 13) {
-    echo "Adolescente";
-} else {
-    echo "Menor";
-}
-💡 Diapositiva 4 – Condicionales: switch
-php
-Copy
-Edit
-switch ($dia) {
-    case "lunes":
-        echo "Inicio de semana";
-        break;
-    default:
-        echo "Otro día";
-}
-💡 Diapositiva 5 – Bucles: while, do...while
-php
-Copy
-Edit
-while ($i <= 5) {
-    echo $i;
-    $i++;
-}
-💡 Diapositiva 6 – Bucle for
-php
-Copy
-Edit
-for ($i = 1; $i <= 5; $i++) {
-    echo $i;
-}
-💡 Diapositiva 7 – Bucle foreach
-php
-Copy
-Edit
-foreach ($nombres as $nombre) {
-    echo $nombre;
-}
-💡 Diapositiva 8 – Control de flujo: break, continue, exit
-php
-Copy
-Edit
-if (!$login) {
-    exit("No autorizado");
-}
-💡 Diapositiva 9 – Ejercicios propuestos
-if con nota
-
-for de 10 a 1
-
-foreach de nombres
-
-switch con días
-
-💡 Diapositiva 10 – Evaluación
-4 preguntas de opción múltiple
-1 pregunta de desarrollo
-
-📘 3. Propuesta de guía de ejercicios (para práctica individual o en clase)
-markdown
-Copy
-Edit
-# 📝 Guía de ejercicios – Estructuras de Control en PHP
-
-## Nivel básico
-
-1. Crea un programa que indique si un número es par o impar.
-2. Hacé un `for` que imprima los múltiplos de 3 del 1 al 30.
-3. Simulá un login: si el usuario y la clave coinciden con "admin", mostrar "Bienvenido".
-
-## Nivel intermedio
-
-4. Con un `switch`, mostrale al usuario un mensaje según el mes del año (1 al 12).
-5. Cargá un array de 5 nombres y mostralos con `foreach`.
-6. Usá `while` para sumar números hasta que la suma sea mayor a 100.
-
-## Nivel avanzado
-
-7. Armá un menú interactivo en consola (usando `readline()`) con `switch`:
-    - 1. Ver perfil
-    - 2. Editar perfil
-    - 3. Salir
-
-8. Simulá un semáforo con `switch`: según el color ("rojo", "verde", "amarillo"), mostrale al usuario una acción.
-
-9. Hacé un ciclo que corte si se introduce el número 0 (usá `break`).
-
-10. Simulá el lanzamiento de un dado (número random del 1 al 6) y repetí hasta que salga un 6 (usá `do...while`).
