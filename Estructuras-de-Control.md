@@ -1,5 +1,4 @@
-✅ 1. Formato en Markdown (para GitHub o impresiones)
-Ideal para subir al repositorio o entregar como apunte a los alumnos.
+✅ 1. Estructuras de Control (para GitHub o impresiones)
 
 <details> <summary>📄 Haz clic aquí para desplegar el contenido en formato Markdown</summary>
 markdown
