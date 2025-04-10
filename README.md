@@ -3,7 +3,7 @@
 ## Introducción
 
 *   [¿Qué es PHP?](docs/Intro.md)
-*   [Instalación y configuración](docs/Instalacion-php.md)
+*   [Instalación y configuración](docs/Instalacion.md)
 
 ## Sintaxis básica
 
