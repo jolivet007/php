@@ -92,25 +92,25 @@ Un lenguaje de programación es una forma de **comunicación entre humanos y com
 
 **1. ¿Qué es la programación?**  
 - a) Crear imágenes en la computadora  
-- b) Enseñar a la computadora a realizar tareas mediante instrucciones ✅  
+- b) Enseñar a la computadora a realizar tareas mediante instrucciones  
 - c) Escribir textos en Word  
 - d) Usar redes sociales
 
 **2. ¿Qué es un algoritmo?**  
 - a) Un virus informático  
 - b) Un paso dentro de un programa  
-- c) Una secuencia ordenada de pasos para resolver un problema ✅  
+- c) Una secuencia ordenada de pasos para resolver un problema 
 - d) Una función matemática avanzada
 
 **3. ¿Cuál es una ventaja de programar?**  
 - a) Hace las tareas más lentas  
-- b) Ayuda a automatizar y resolver problemas ✅  
+- b) Ayuda a automatizar y resolver problemas 
 - c) Reduce el trabajo en equipo  
 - d) Solo sirve para crear videojuegos
 
 **4. ¿Cuál de los siguientes es un lenguaje de programación?**  
 - a) HTML  
-- b) PHP ✅  
+- b) PHP  
 - c) Excel  
 - d) Word
 
