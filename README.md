@@ -2,14 +2,14 @@
 
 ## Introducción
 
-*   [¿Qué es PHP?](docs/Introducción.md)
-*   [Instalación y configuración](seccion-instalacion.md#instalacion)
+*   [¿Qué es PHP?](docs/Intro.md)
+*   [Instalación y configuración](docs/Instalacion.md)
 
 ## Sintaxis básica
 
 *   [Variables y tipos de datos](docs/Variables.md)
 *   [Operadores](seccion-sintaxis.md#operadores)
-*   [Sentencias de control](seccion-sintaxis.md#sentencias-control)
+*   [Sentencias de control](seccion-sintsentencias-control)
 
 ## Funciones
 
