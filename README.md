@@ -2,19 +2,18 @@
 
 ## Introducción
 
-*   [¿Qué es PHP?]((docs/Introducción.md))
-*   [Instalación y configuración](seccion-instalacion.md#instalacion)
+*   [¿Qué es PHP?](docs/Intro.md)
+*   [Instalación y configuración](docs/Instalación-php.md)
 
 ## Sintaxis básica
 
 *   [Variables y tipos de datos](docs/Variables.md)
-*   [Operadores](seccion-sintaxis.md#operadores)
-*   [Sentencias de control](seccion-sintaxis.md#sentencias-control)
+*   [Operadores](docs/Operadores.md)
+*   [Sentencias de control](docs/Estructuras-de-control.md)
 
 ## Funciones
 
 *   [Funciones predefinidas](Funciones.md)
-*   [Funciones personalizadas](seccion-funciones.md#funciones-personalizadas)
 
 ## BBDD
 
@@ -28,8 +27,9 @@
 *   [Herencia](seccion-objetos.md#herencia)
 *   [Polimorfismo](seccion-objetos.md#polimorfismo)
 
-## Ejemplos
+## Ejemplos prácticos
 
-*   [Creación de una página web](seccion-ejemplos.md#pagina-web)
-*   [Formulario de contacto](seccion-ejemplos.md#formulario)
-*   [Gestión de usuarios](seccion-ejemplos.md#gestion-usuarios)
+*   [Creación de una página web](docs/Login.md)
+*   [Formulario de contacto](docs/Contacto.md)
+*   [Gestión de usuarios](docs/Gestión.md)
+*   [Gestión de usuarios avanzada](docs/Gestión-avanzada.md)
