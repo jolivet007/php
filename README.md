@@ -3,13 +3,22 @@
 ## Introducción
 
 *   [¿Qué es PHP?](docs/Intro.md)
+<<<<<<< HEAD
 *   [Instalación y configuración](docs/Instalación-php.md)
+=======
+*   [Instalación y configuración](docs/Instalacion.md)
+>>>>>>> 5bd6e43b701073b41eb8ece0c450283e654e0dc6
 
 ## Sintaxis básica
 
 *   [Variables y tipos de datos](docs/Variables.md)
+<<<<<<< HEAD
 *   [Operadores](docs/Operadores.md)
 *   [Sentencias de control](docs/Estructuras-de-control.md)
+=======
+*   [Operadores](seccion-sintaxis.md#operadores)
+*   [Sentencias de control](seccion-sintsentencias-control)
+>>>>>>> 5bd6e43b701073b41eb8ece0c450283e654e0dc6
 
 ## Funciones
 
