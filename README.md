@@ -3,22 +3,14 @@
 ## Introducción
 
 *   [¿Qué es PHP?](docs/Intro.md)
-<<<<<<< HEAD
-*   [Instalación y configuración](docs/Instalación-php.md)
-=======
-*   [Instalación y configuración](docs/Instalacion.md)
->>>>>>> 5bd6e43b701073b41eb8ece0c450283e654e0dc6
+*   [Instalación y configuración](docs/Instalacion-php.md)
 
 ## Sintaxis básica
 
 *   [Variables y tipos de datos](docs/Variables.md)
-<<<<<<< HEAD
 *   [Operadores](docs/Operadores.md)
 *   [Sentencias de control](docs/Estructuras-de-control.md)
-=======
-*   [Operadores](seccion-sintaxis.md#operadores)
-*   [Sentencias de control](seccion-sintsentencias-control)
->>>>>>> 5bd6e43b701073b41eb8ece0c450283e654e0dc6
+
 
 ## Funciones
 
@@ -26,9 +18,9 @@
 
 ## BBDD
 
-*   [Conexión a la base de datos](seccion-bbdd.md#conexion)
-*   [Consulta de datos](seccion-bbdd.md#consulta)
-*   [Inserción y actualización de datos](seccion-bbdd.md#actualizacion)
+*   [Conexión a la base de datos](docs/conexion.md)
+*   [Consulta de datos](docs/consultas.md)
+*   [Inserción y actualización de datos](docs/actualizacion.md)
 
 ## Objetos
 
@@ -40,5 +32,5 @@
 
 *   [Creación de una página web](docs/Login.md)
 *   [Formulario de contacto](docs/Contacto.md)
-*   [Gestión de usuarios](docs/Gestión.md)
-*   [Gestión de usuarios avanzada](docs/Gestión-avanzada.md)
+*   [Gestión de usuarios](docs/Gestion.md)
+*   [Gestión de usuarios avanzada](docs/Gestion-avanzada.md)
