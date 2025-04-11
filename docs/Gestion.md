@@ -6,12 +6,21 @@ Desarrollar un sistema básico de gestión de usuarios que permita registrarse y
 ---
 
 ## 🧩 Estructura del proyecto
+```plaintext
 
-/gestion-usuarios/ ├── registro.html ├── login.html ├── registro.php ├── login.php ├── conexion.php └── users.sql
+/gestion-usuarios/ 
+├── registro.html 
+├── login.html 
+├── registro.php 
+├── login.php 
+├── conexion.php
+└── users.sql
 
 
 
 ---
+```
+
 
 ## 🛠️ Paso 1: Base de datos
 
