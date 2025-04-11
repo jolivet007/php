@@ -21,6 +21,7 @@
 │   └── index.php
 ├── .htaccess
 └── README.md
+```
 🧱 1. config/database.php
 ```php
 
