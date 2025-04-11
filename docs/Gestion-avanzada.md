@@ -1,8 +1,7 @@
 ﻿
 📁 Estructura del Proyecto MVC
-plaintext
-Copy
-Edit
+```plaintext
+
 /usuario-mvc
 ├── config/
 │   └── database.php
@@ -23,9 +22,8 @@ Edit
 ├── .htaccess
 └── README.md
 🧱 1. config/database.php
-php
-Copy
-Edit
+```php
+
 <?php
 class Database {
     public static function conectar() {
@@ -36,10 +34,11 @@ class Database {
         return $conexion;
     }
 }
+```
 🧠 2. models/Usuario.php
-php
-Copy
-Edit
+```php
+
+
 <?php
 require_once 'config/database.php';
 
@@ -81,10 +80,10 @@ class Usuario {
         return false;
     }
 }
+```
 🎮 3. controllers/UsuarioController.php
-php
-Copy
-Edit
+```php
+
 <?php
 require_once 'models/Usuario.php';
 
@@ -139,10 +138,10 @@ class UsuarioController {
         header("Location: index.php?controller=usuario&action=login");
     }
 }
+```
 🌐 4. public/index.php
-php
-Copy
-Edit
+```php
+
 <?php
 session_start();
 
@@ -153,10 +152,10 @@ require_once "controllers/" . ucfirst($controller) . "Controller.php";
 $controllerName = ucfirst($controller) . "Controller";
 $controlador = new $controllerName();
 $controlador->$action();
+```
 👁️ 5. views/usuarios/index.php
-php
-Copy
-Edit
+```php
+
 <h2>Usuarios</h2>
 <a href="index.php?controller=usuario&action=create">Crear nuevo</a>
 <table>
@@ -174,10 +173,10 @@ Edit
 <?php endwhile; ?>
 </table>
 <a href="index.php?controller=usuario&action=logout">Cerrar sesión</a>
+```
 ➕ 6. views/usuarios/create.php
-php
-Copy
-Edit
+```php
+
 <h2>Nuevo usuario</h2>
 <form action="index.php?controller=usuario&action=store" method="POST">
     <input name="nombre" placeholder="Nombre" required>
@@ -185,10 +184,10 @@ Edit
     <input name="password" type="password" placeholder="Password" required>
     <input type="submit" value="Guardar">
 </form>
+```
 📝 7. views/usuarios/edit.php
-php
-Copy
-Edit
+```php
+
 <h2>Editar usuario</h2>
 <form action="index.php?controller=usuario&action=update" method="POST">
     <input type="hidden" name="id" value="<?= $usuario['id'] ?>">
@@ -196,27 +195,27 @@ Edit
     <input name="email" value="<?= $usuario['email'] ?>" required>
     <input type="submit" value="Actualizar">
 </form>
+```
 🔐 8. views/usuarios/login.php
-php
-Copy
-Edit
+```php
+
 <h2>Iniciar sesión</h2>
 <form action="index.php?controller=usuario&action=loginPost" method="POST">
     <input name="email" type="email" placeholder="Email">
     <input name="password" type="password" placeholder="Password">
     <input type="submit" value="Ingresar">
 </form>
+```
 📌 9. .htaccess (para Apache)
-apache
-Copy
-Edit
+```apache
+
 RewriteEngine On
 RewriteRule ^$ public/index.php [L]
 RewriteRule (.*) public/$1 [L]
+```
 🧪 SQL (base de datos)
-sql
-Copy
-Edit
+```sql
+
 CREATE DATABASE mvc_php;
 USE mvc_php;
 
@@ -226,11 +225,10 @@ CREATE TABLE usuarios (
     email VARCHAR(100) UNIQUE,
     password TEXT,
     token VARCHAR(255)
-);
+);```
 📚 10. README.md (Resumen del proyecto)
-markdown
-Copy
-Edit
+```markdown
+
 # CRUD de Usuarios en PHP con MVC
 
 Este proyecto implementa un sistema de registro, login y gestión de usuarios usando arquitectura MVC sin frameworks.
@@ -264,3 +262,4 @@ Este proyecto implementa un sistema de registro, login y gestión de usuarios us
 3. Acceder a `public/index.php`
 
 ---
+```

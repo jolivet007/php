@@ -16,8 +16,7 @@ Un **formulario de contacto** permite a los visitantes de una página web comuni
 /formulario-contacto ├── contacto.html # Formulario de contacto ├── procesar.php # Script que procesa el formulario
 
 php-template
-Copy
-Edit
+
 
 ---
 
