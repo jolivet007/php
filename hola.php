@@ -1,8 +1,7 @@
 <?php //Indica que comienza un programa en PHP
-function saludar() {
-    echo "¡Hola mundo!";
+function saludar($nombre) {
+    echo "¡Hola, $nombre!";
 }
 
-saludar(); // Llama a la función
-//termina el programa php
+saludar("Juan"); // Imprime: ¡Hola, Ana!
 ?> 

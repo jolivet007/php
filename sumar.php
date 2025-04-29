@@ -1,6 +1,10 @@
+<?
 function sumar($a, $b) {
-    return $a + $b;
+
+return $a + $b;
 }
 
-$resultado = sumar(3, 5); // $resultado = 8
-echo $resultado;
+$resultado = sumar(4, 4); // $resultado = 8
+
+echo $resultado+100;
+?> 
