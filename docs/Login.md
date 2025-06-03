@@ -109,11 +109,10 @@ c) ===
 
 d) =>
 
-¿Qué hace el siguiente código si se cumple la condición?
+¿Qué hace el siguiente código si no se cumple la condición?
 
-php
-Copy
-Edit
+```php
+
 if ($usuario == "admin" && $clave == "1234") {
     echo "Bienvenido";
 }
@@ -124,7 +123,7 @@ b) Muestra "Bienvenido"
 c) Repite el formulario
 
 d) Guarda el usuario en una base de datos
-
+```
 ✍️ Actividad de desarrollo
 Modificar el script para:
 
