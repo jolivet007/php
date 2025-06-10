@@ -1,0 +1,26 @@
+$sql = 'SELECT ..... FROM ... WHERE 1 ';
+$where = '';
+$pdoData = [];
+
+foreach ($search_data as $key => $value) {
+    if(!$value) continue; // skip empty values
+
+    if ($key === 'category') {
+        $pdoData[':category'] = $value;
+        $where .= ' AND category = :category ';
+    }
+    if ($key === 'course_name') {
+        $pdoData[':course_name'] = '%'.$value.'%';
+        $where .= ' AND course_name LIKE (:course_name) ';
+    }
+    if ($key === 'date') {
+        $pdoData[':date'] = $value;
+        $where .= ' AND date = :date ';
+    }
+}
+
+$sql = $sql.$where;
+
+$stmt = $this->ci->db->prepare($sql);
+$stmt->execute($pdoData);
+$results = $stmt->fetchAll(PDO::FETCH_ASSOC)
